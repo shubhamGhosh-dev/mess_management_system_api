@@ -1,0 +1,25 @@
+{
+  "name": "mess_management_system",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Shubham Ghosh",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "concurrently \" tsc -w \" \" nodemon dist/index.js\" ",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "prettier": "3.2.5",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  }
+}
